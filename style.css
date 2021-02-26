@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+
+.bordaLogin{
+    border: 2px solid black;
+    box-shadow: 9px 12px;
+    padding: 2rem;
+    border-radius:5px;
+    background-color: #f8f8f8;
+    margin-top: 90px;
+    width: 450px;
+    height: 500px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bordaLogin h3{
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.bordaLogin h3::before{
+    content: '';
+    height: 4px;
+    width: 20px;
+    position: absolute;
+    top: 19px;
+    left: 0;
+    border-radius: 8px;
+    background:  linear-gradient(48deg, #8e2de2, #4a00e0);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+body{
+    background: linear-gradient(48deg, #8e2de2, #4a00e0);
+    font-family: "Roboto", sans-serif;
+    background-repeat: no-repeat;
+    min-height: 100vh;  
+    display: flex;
+}
+
+#BotaoContinue{
+    background:  linear-gradient(to left, #8e2de2, #4a00e0);
+    color: #f8f8f8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+    padding: 6px 25px;
+    margin-top: 36px;  
+    cursor: pointer;   
+}
+
+#BotaoContinue:hover{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+
+ }
+
+.input-field input {
+    outline:none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    margin-bottom: 19px;
+}
+
+.footer p{
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer i{
+    padding: 4px;
+    color: #f8f8f8;
+}
+
+#facebook-border {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px 15px; 
+    color: #f8f8f8  ;
+}
+
+#twitter-border {
+    background: linear-gradient(to right, #1e3c62, #2a5298);
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px 15px;
+    color: #f8f8f8 ;
+}
